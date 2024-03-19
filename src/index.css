@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    background-color: rgb(244, 244, 245);
+    @apply selection:bg-indigo-200;
+}
+
 input[type='text'] {
-    @apply px-2 py-1.5 w-full rounded-md ring-1 ring-gray-300 placeholder-gray-600 focus:ring-2 hover:ring-gray-500 focus:outline focus:ring-indigo-600 
+    @apply px-2 py-1.5 w-full rounded-md ring-1 ring-gray-300 placeholder-gray-600 focus:ring-2 hover:ring-gray-500 focus:outline-none focus:ring-indigo-600 
 }
